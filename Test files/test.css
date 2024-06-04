@@ -6,8 +6,37 @@ body{
      max-height: 100%;
      border: none;
      margin: none;
+          @media (min-width:1369px) and (max-width:1600px) {
+               background-color: aquamarine;
+               display: ;
+               max-width: 100%;
+               align-content: center;
+               max-height: 100%;
+               border: none;
+               margin: none;
+          }
 }
-@media only screen and (min-width:1369px)and(max-width:1600px) {
+.frame{
+     max-width: 1200px;
+     border: auto;
+     display: block;
+     
+     @media (min-width:1369px)and(max-width:1600px){
+          max-width: 1200px;
+          border: auto;
+          display: block;
+     }
+     @media (min-width:801px)and(max-width:1368px){
+          max-width: 1100px;
+          border: auto;
+     }
+     @media(min-width:401px)and(max-width:800px){
+          max-width: 700px;
+          margin: auto;
+     }
+
+}
+@media (min-width:1369px)and(max-width:1600px) {
      body{
           background-color: aquamarine;
           display: ;
@@ -61,7 +90,7 @@ body{
      
      }
 }
-@media only screen and (min-width:801px)and(max-width:1368px){
+@media (min-width:801px)and(max-width:1368px){
      body{
           background-color: aquamarine;
           display: ;
@@ -113,7 +142,7 @@ body{
      
      }
 }
-@media only screen and (min-width:401px)and(max-width:800px){
+@media (min-width:401px)and(max-width:800px){
      body{
           background-color: aquamarine;
           display: ;
@@ -165,7 +194,7 @@ body{
       
      }
 }
-@media only screen and (max-width:400px){
+@media (max-width:400px){
      body{
           background-color: aquamarine;
           display: ;
