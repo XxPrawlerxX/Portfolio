@@ -7,7 +7,20 @@ body{
      border: none;
      margin: none;
           @media (min-width:1369px) and (max-width:1600px) {
-               background-color: aquamarine;
+               background-image: url(blue\ white2.avif);
+               background-repeat: no-repeat;
+               background-size: cover;
+               display: ;
+               max-width: 100%;
+               align-content: center;
+               max-height: 100%;
+               border: none;
+               margin: none;
+          }
+          @media (min-width:801px)and(max-width:1368px){
+               background-image: url(blue\ white2.avif);
+               background-repeat: no-repeat;
+               background-size: cover;
                display: ;
                max-width: 100%;
                align-content: center;
@@ -33,6 +46,10 @@ body{
      @media(min-width:401px)and(max-width:800px){
           max-width: 700px;
           margin: auto;
+     }
+     @media(max-width:400px){
+               max-width: auto;
+               margin: none;
      }
 
 }
