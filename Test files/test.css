@@ -1,8 +1,21 @@
-@media(min-width:1369px)and(max-width:1600px) {
+body{
+     background-color: aquamarine;
+     display: block;
+     max-width: 100%;
+     align-content: center;
+     max-height: 100%;
+     border: none;
+     margin: none;
+}
+@media only screen and (min-width:1369px)and(max-width:1600px) {
      body{
           background-color: aquamarine;
           display: ;
           max-width: 100%;
+          align-content: center;
+          max-height: 100%;
+          border: none;
+          margin: none;
      }
      .frame{
           max-width: 1200px;
@@ -16,12 +29,12 @@
           display: flex;
      }
      .top_logo{
+          display: block;
           float: left;
-          height: 50px;
-          width: fit-content;
+          height: 42px;
+          max-width: 64px;
           padding-left: none;
-          padding-right: auto;
-          
+          padding-right: auto;          
      }
      .text_frame{
      
@@ -48,11 +61,15 @@
      
      }
 }
-@media(min-width:801px)and(max-width:1368px){
+@media only screen and (min-width:801px)and(max-width:1368px){
      body{
           background-color: aquamarine;
           display: ;
           max-width: 100%;
+          align-content: center;
+          max-height: 100%;
+          border: none;
+          margin: none;
      }
      .frame{
           max-width: 1100px;
@@ -96,11 +113,15 @@
      
      }
 }
-@media(min-width:401px)and(max-width:800px){
+@media only screen and (min-width:401px)and(max-width:800px){
      body{
           background-color: aquamarine;
           display: ;
           max-width: 100%;
+          align-content: center;
+          max-height: 100%;
+          border: none;
+          margin: none;
      }
      .frame{
           max-width: 700px;
@@ -144,20 +165,24 @@
       
      }
 }
-@media(max-width:400px){
+@media only screen and (max-width:400px){
      body{
           background-color: aquamarine;
           display: ;
           max-width: 100%;
+          align-content: center;
+          max-height: 100%;
+          border: none;
+          margin: none;
      }
      .frame{
           max-width: auto;
           border: auto;
      }
      .top{
-          height: ;
-          border-top: ;
-          border-bottom: ;
+          height: 30px;
+          border-top: 20px;
+          border-bottom: 20px;
           display: flex;
      }
      .top_logo{
